@@ -1,28 +1,12 @@
 {
+  "name": "omnibox utility",
   "manifest_version": 3,
-  "name": "shortcut",
   "version": "1.0",
   "description": "",
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ],
   "background": {
     "service_worker": "background.js"
   },
-  "commands": {
-    "run-translate": {
-      "suggested_key": {
-        "mac": "Command+K"
-      },
-      "description": "translate English"
-    },
-    "toggle-feature": {
-      "suggested_key": {
-        "default": "Ctrl+K",
-        "mac": "MacCtrl+K"
-      },
-      "description": "Send a 'toggle-feature' event to the extension"
-    }
+  "omnibox": {
+    "keyword": "ww"
   }
 }
