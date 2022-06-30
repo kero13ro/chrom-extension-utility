@@ -1,0 +1,12 @@
+{
+  "name": "omnibox translation",
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": "ww"
+  }
+}
