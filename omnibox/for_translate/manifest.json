@@ -1,7 +1,13 @@
 {
-  "name": "omnibox translation",
+  "name": "translation",
   "manifest_version": 3,
   "version": "1.0",
+  "permissions": [
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "description": "",
   "background": {
     "service_worker": "background.js"
