@@ -1,5 +1,5 @@
 chrome.omnibox.onInputEntered.addListener((text) => {
-  chrome.tabs.create({
+  chrome.tabs.update({
     url: `https://interview.tw/search?keyword=${text}`,
   });
 });

@@ -16,7 +16,7 @@ function constructOptions() {
       textWrap.text(text).appendTo(node);
       textWrap.click(() => {
         chrome.tabs.update({
-          url: `https://translate.google.com/?sl=en&tl=zh-CN&text=${text}&op=translate`,
+          url: `https://translate.google.com/?sl=en&tl=zh-TW&text=${text}&op=translate`,
         });
       });
 
@@ -49,7 +49,7 @@ constructOptions();
 //     textWrap.text(text).appendTo(node);
 //     textWrap.click(() => {
 //       chrome.tabs.create({
-//         url: `https://translate.google.com/?sl=en&tl=zh-CN&text=${text}&op=translate`,
+//         url: `https://translate.google.com/?sl=en&tl=zh-TW&text=${text}&op=translate`,
 //       });
 //     });
 
