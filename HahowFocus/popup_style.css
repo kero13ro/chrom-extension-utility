@@ -1,0 +1,13 @@
+button {
+  padding: 8px;
+  outline: none;
+  margin: 10px;
+  border: none;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+button.invalid {
+  opacity: 0.3;
+  pointer-events: none;
+}

@@ -1,0 +1,55 @@
+.video-player {
+  background-color: #000 !important;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  height: calc(100vh - 50px) !important;
+  z-index: 1000;
+}
+
+.video-player>div:first-child {
+  width: 90% !important;
+}
+
+img[src*='https://hahow.in/static/media/floating'] {
+  display: none;
+}
+
+img[src*='https://hahow.in/static/media/floating']+span {
+  display: none;
+}
+
+.intercom-lightweight-app {
+  display: none;
+}
+
+li .list-content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* udemy */
+
+div[class*='app--content-column'] {
+  width: 60% !important;
+}
+
+div[class*='app--sidebar-column'] {
+  width: 40% !important;
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+html,
+body {
+  height: 100vh !important;
+  overflow: hidden !important;
+}
+
+div[class*='.curriculum-item-view--scaled-height-limiter'] {
+  max-height: calc(100vh - 24rem) !important;
+}
+
+p[class*='transcript--underline-cue--'] {
+  max-width: 100%;
+}
