@@ -8,7 +8,11 @@
 }
 
 .video-player>div:first-child {
-  width: 90% !important;
+  width: 50% !important;
+}
+
+.video-player .item-list-container {
+  width: 50% !important;
 }
 
 img[src*='https://hahow.in/static/media/floating'] {
